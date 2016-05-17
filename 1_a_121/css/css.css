@@ -1,0 +1,103 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: #EFECEC;
+}
+
+#obj
+{
+	color: black;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 30px;
+}
+#objetivo
+{
+	color: red;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 30px;
+
+}
+#nombre
+{
+	color: black;
+	font-family: Mistral;
+	font-size: 20px;
+	margin-top: 0.2em;
+	margin-left: 0em;
+	 /*transform: rotate(-12deg);*/
+}
+
+#objt
+{
+	color: black;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 30px;
+	position: absolute;
+	left: 43%;
+	top: 0%;
+}
+
+#tiempo
+{
+	color: red;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 30px;
+	position: absolute;
+	left: 53%;
+}
+
+#cuadro
+{
+	width: 100%;
+	position: relative;
+}
+
+#cuadronumeros
+{
+	width: 100%;
+	margin-top: 30px;
+}
+
+#help
+{
+	outline: none;
+	background-image: url("../img/help.png");	
+	background-color: Transparent;
+	border: none;	
+	cursor: help;
+	background-size: 70%;
+	background-repeat:no-repeat;	
+	background-position:center;
+	width: 90px;
+	height: 90px;
+	/*margin:auto 0;*/
+	/*float: right;*/
+	left: 60%;
+
+	position: absolute;
+}
+
+.boton
+{
+	width: 45px;
+	height: 45px;
+	text-align: center;	
+	outline: none;
+	border-radius: 7px;
+	font-weight: bold;
+}
+
+.click
+{
+	background-image: url("../img/click.png");	
+	background-size: 95% 95%;
+	background-repeat:no-repeat;	
+	background-position:center;	
+	border-radius: 20px; 
+}
